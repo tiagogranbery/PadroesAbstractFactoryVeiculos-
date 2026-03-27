@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Fabrica_Veiculos.iml" filepath="$PROJECT_DIR$/Fabrica_Veiculos.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/AbstractFactoryVeiculos.iml" filepath="$PROJECT_DIR$/AbstractFactoryVeiculos.iml" />
+>>>>>>> 99eee01 (Adicionando projeto, Abstract Factory)
     </modules>
   </component>
 </project>

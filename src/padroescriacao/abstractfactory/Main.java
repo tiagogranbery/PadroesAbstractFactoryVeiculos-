@@ -1,4 +1,5 @@
 package padroescriacao.abstractfactory;
+<<<<<<< HEAD
 public class Main {
     public static void main(String[] args) {
 
@@ -24,3 +25,16 @@ public class Main {
         System.out.println(veiculoEletrico.montarCarroceria());
     }
 }
+=======
+
+public class Main {
+    public static void main(String[] args) {
+
+        Veiculo v1 = new Veiculo(new FabricaEconomica());
+        Veiculo v2 = new Veiculo(new FabricaEsportiva());
+
+        System.out.println(v1.montarMotor() + " - " + v1.montarCarroceria());
+        System.out.println(v2.montarMotor() + " - " + v2.montarCarroceria());
+    }
+}
+>>>>>>> 99eee01 (Adicionando projeto, Abstract Factory)
